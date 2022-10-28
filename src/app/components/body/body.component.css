@@ -1,0 +1,112 @@
+*{
+  background-color: #f6f6f6;
+}
+div.stars {
+  width: 175px;
+  display: inline-block;
+  margin-right: -9%;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: left;
+  padding: 7px;
+  font-size: 17px;
+  color: #444;
+  transition: all .2s;
+}
+label.star:hover { transform: rotate(-15deg) scale(1.3); 
+  color: #FE7;
+  
+}
+label.star:hover ~ label.star:before {
+  color: #FD4;
+}
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+
+  
+}
+#btn1{
+border-radius: 10%;
+border-color: #302ca2;
+color: #302ca2;
+}
+#btn1:hover{
+color: #f6f6f6;
+background-color: #302ca2;
+}
+#p1,hr
+{
+  color: #302ca2;
+}
+.btn{
+  color: #f6f6f6;
+background-color: #302ca2;
+border-radius: 13%;
+font-size: small;
+width: 79%;
+text-align: center;
+
+}
+#span{
+  position: relative;
+}
+#userIcon{
+  background-color: #302ca2;
+position: absolute;
+left: 80%;
+top: 90%;
+text-align: center;
+}
+.card{
+  transition: 0.3s;
+  border-color: #3e3b9e;
+  position: relative;
+}
+.card:hover{
+  bottom: 0;
+  transform:  scale(1.1);
+
+}
+.card-text{
+  color: #302ca2;
+}
+#price{
+  font-weight: bolder;
+  color: #302ca2;
+}
+img{
+  cursor: pointer;
+}
+svg{
+  margin-right: 5.2%;
+  transition: 0.3s;
+
+}
+svg:hover{
+  transform:  scale(1.1);
+fill: red;
+}
+#pnl{
+  background-color: #26a37c;
+  padding: 3px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  font-size: smaller;
+  right: 1%;
+  top: 1%;
+}
+#pnl2{
+  background-color:#302ca2;
+  padding: 3px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  font-size: smaller;
+  right: 1%;
+  top: 1%;
+}

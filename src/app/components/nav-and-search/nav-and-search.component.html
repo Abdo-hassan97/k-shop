@@ -1,0 +1,56 @@
+<div class="container-fluid">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div  class="row">
+    <div  class="col-2 logo">K-shop</div>
+    <div class="col-7">
+      <!-- <input id="searchBar" type="text" placeholder="عم تبحث ؟"> -->
+      <form class="example" action="action_page.php">
+        <div>
+        <input type="text" placeholder="   🔎 عم تبحث ؟" name="search">
+      </div>
+      </form>
+    </div>
+  <div id="user" class="col-1"><i class="fa fa-user" aria-hidden="true"></i>
+  </div>
+  <div class="col-2">
+   <p id="btn1">سلة التسوق <span id="sp1"><i id="userIcon" class="fa fa-shopping-cart" aria-hidden="true"></i>
+   </span></p>
+  </div>
+  </div>
+  <br>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul id="ull" class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            الاقسام
+          </a>
+          <div id="drp" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">ملابس</a>
+            <a class="dropdown-item" href="#">هواتف</a>
+            <a class="dropdown-item" href="#">لابتوب</a>
+          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="/body" routerLinkActive="active">الرئيسية <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/hopes" routerLinkActive="active">قائمة الامنيات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/conectUS" routerLinkActive="active">تواصل معنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/info" routerLinkActive="active">من نحن</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </nav>
+
+</div>

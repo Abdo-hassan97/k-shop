@@ -1,0 +1,73 @@
+
+.btn{
+  color: #f6f6f6;
+background-color: #302ca2;
+border-radius: 13%;
+font-size: small;
+width: 79%;
+text-align: center;
+
+}
+#span{
+  position: relative;
+}
+#userIcon{
+position: absolute;
+left: 79%;
+top: 73%;
+text-align: center;
+color: #302ca2;
+}
+#img{
+  padding-top: 21%;
+}
+.card-text,#head{
+  color: #302ca2;
+}
+#price{
+  font-weight: bolder;
+  color: #302ca2;
+}
+.card{
+  border-color: #3e3b9e;
+  transition: 0.3s;
+
+}
+.card:hover{
+  transform:  scale(1.1);
+
+}
+#pnl2{
+  background-color:#302ca2;
+  padding: 3px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  font-size: smaller;
+  left: 65%;
+  top: 2%;
+}
+svg{
+  position: absolute;
+  right: 60%;
+  transition: 0.3s;
+  bottom: 10%;
+
+}
+#svg2{
+  position: absolute;
+  right: 90%;
+  transition: 0.3s;
+  bottom: 10%;
+  color: #302ca2;
+}
+svg:hover{
+  fill: red;
+  transform:  scale(1.1);
+
+}
+
+
+#parent{
+  position: relative;
+}

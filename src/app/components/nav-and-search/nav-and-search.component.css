@@ -1,0 +1,108 @@
+
+* {
+  box-sizing: border-box;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+z-index: 1000;
+background-color: #f1f1f1;
+}
+.container-fluid{
+  margin-top: 1%;
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 3px;
+  font-size: 11px;
+  border: 1px solid grey;
+  float: left;
+  width:99%;
+  background: #f1f1f1;
+  border-radius: 10px;
+  position: relative;
+
+}
+.logo{
+  color: #302ca2;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+input,.nav-link{
+  color: #302ca2;
+
+}
+
+nav{
+  padding: 0px;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+::placeholder {
+  color: #302ca2;
+}
+.fa-user{
+  position: absolute;
+  right: 24%;
+    top: 15%;
+    color: #302ca2;
+}
+#btn1{
+  text-align: center;
+  background-color: #f1f1f1;
+  position: absolute;
+  color: #302ca2;
+  border-radius: 10%;
+width: 10%;
+}
+#user{
+  position: relative;
+  background-color: #f1f1f1;
+  border-radius: 10%;
+  width: 1%;
+}
+#userIcon{
+  margin-right: 0%;
+}
+
+#btn1{
+  border-radius: 10%;
+  border-color: #302ca2;
+  color: #302ca2;
+  border: 1px solid #302ca2;
+  font-size: small;
+  width: 120px;
+  }
+
+  @media screen and (max-width: 400px) {
+#btn1{
+  display: none;
+}
+  }
+  @media screen and (max-width: 991px) {
+*{
+position:static;
+}
+  }
+  @media screen and (max-width: 312px) {
+#ull{
+  display: list-item;
+}
+  }
+  .collapse:not(.show){
+    display: block;
+  }
+  a.nav-link:hover{
+    background-color: rgb(230, 230, 230);
+
+  }
+span.navbar-toggler-icon{
+  display: none;
+}
+button.navbar-toggler{
+  display: none;
+}
